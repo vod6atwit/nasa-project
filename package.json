@@ -16,9 +16,5 @@
   },
   "keywords": [],
   "author": "Duy Vo",
-  "license": "ISC",
-  "dependencies": {
-    "mongoose": "^6.5.3",
-    "morgan": "^1.10.0"
-  }
+  "license": "ISC"
 }
