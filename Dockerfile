@@ -1,3 +1,7 @@
+## A Dockerfile defines the base image that will serve as the foundation of the container.
+
+## Docker image is a template that defines how a container will be realized. A Docker container is a runtime instance of a Docker image.
+
 FROM node:lts-alpine
 
 WORKDIR /app
@@ -22,5 +26,15 @@ EXPOSE 8000
 
 CMD [ "npm", "start", "--prefix", "server" ]
 
-# docker build . -t vod6atwit/nasa-project
-# docker run -it -p 8000:8000 vod6atwit/nasa-project 
+### build images/ docker image creation
+# docker build . -t username/name of project - ex: vod6atwit/nasa-project
+
+### For localhost use/ docker container creation
+# docker run -it --name mycontainer -p 8000:8000 vod6atwit/nasa-project 
+
+## verify that the container is running
+# docker ps -a
+
+### For docker hub repository
+# docker login
+# docker push 'name of the repository' ex: vod6atwit/nasa-project
