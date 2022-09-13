@@ -80,6 +80,10 @@ The MVC architecture used here, is a way to structure the application developmen
 - <ins>Application logic layer:</ins> represented in Controler files, build around javascript functions to handle application's requests interact with models and send back response to clients.
 - <ins>Presentation logic layer:</ins> represented in public folder consists basically of the templates used to generate the view, so the website that we're going to send back to the clients.
 
+<br><br>
+
+### **Coming improvement:**
+
 <br>
 
 - Implemented ECS and docker for better security
