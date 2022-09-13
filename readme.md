@@ -18,8 +18,8 @@ Live application hosted on AWS EC2 instances, deploy using Docker image <a href=
 - Able to see history after aborting the mission or successful launch
 - Get real upcoming and history launch of spaceX company by implemented call rest API
   Source: <a href="https://github.com/r-spacex/SpaceX-API" >https://github.com/r-spacex/SpaceX-API</a>
-- Fitler out several Habitable Planets in kepler\*data_csv
-  - Implemented MVC pattern
+- Fitler out several Habitable Planets in kepler_data.csv
+- Implemented MVC pattern
 - Implemented PM2, Docker and EC2 instances
 - Implemented Github Workflow using yml file
 - Implemented testing using SuperTest library and JEST
