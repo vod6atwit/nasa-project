@@ -27,7 +27,7 @@ EXPOSE 8000
 CMD [ "npm", "start", "--prefix", "server" ]
 
 ### build images/ docker image creation
-# docker build . -t username/name of project - ex: vod6atwit/nasa-project
+# docker build . -t tag username/name of project - ex: vod6atwit/nasa-project
 
 ### For localhost use/ docker container creation
 # docker run -it --name mycontainer -p 8000:8000 vod6atwit/nasa-project 

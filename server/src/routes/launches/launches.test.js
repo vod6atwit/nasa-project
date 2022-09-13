@@ -1,3 +1,5 @@
+// HTTP assertions made easy via superagent
+// request again API
 const request = require('supertest');
 const app = require('../../app');
 const { loadPlanetsData } = require('../../models/planetsModel');
